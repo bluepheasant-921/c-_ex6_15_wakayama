@@ -5,6 +5,7 @@
 using namespace std;
 class Box
 {
+private:
 	float width;
 	float height;
 	float depth;
