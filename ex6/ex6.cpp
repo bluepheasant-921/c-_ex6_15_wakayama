@@ -51,7 +51,6 @@ int main()
 
 	Box* box = new Box(width, height, depth);
 
-	// 作られたboxのインスタンスを用いて表面積と体積を取り出して表示
 	float surface = box->GetSurface();
 	float volume = box->GetVolume();
 	cout << "表面積:" << surface << ", 体積:" << volume << endl;
